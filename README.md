@@ -40,3 +40,18 @@ To revert a change:
 1. git log
 2. take first 7 characters of commit ID string
 3. git revert [insert 7 characters here]
+
+To create a new branch:
+- git switch --create sandwiches
+- Creates a new branch called "sandwiches" and
+immediately switch to it
+- to publish to main branch : git push –-set-upstream origin sandwiches
+- to switch back to main branch : git switch main
+
+After pulling and merging etc etc, switch back to main branch, pull changes from GitHub and reflect them in local repository, delete local copy of sandwiches because I'm finished with it :
+- git switch main
+- git pull
+- git branch -d sandwiches
+
+The 'Fork' command in GitHub makes a copy linked to the original repo thich allows us to collab with others. 
+Then we can make PRs (pull requests) from forks into the original without needing ot be added as a collaborator.
