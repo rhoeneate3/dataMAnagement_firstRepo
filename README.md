@@ -21,4 +21,17 @@ Commands I now know:
 - cd .. ; cd ../.. (and so on); cd - ; cd ~
 
 
+Good Work Flow:
+1. Work away and make whatever changes you have to make.
+2. Commit with every substantial change for ease of message, reproducibility, undoing, and retrieval. OR commit with every task switch. 
+3. git add; git commit -m "< Insert msg here >"; git push
+4. Rinse and Repeat.
 
+For Undoing Things:
+- git restore <file>
+
+For undoing staged changes:
+- git restore --staged README.md
+- Exactly the opposite of git add <file>
+
+THIS IS A CHANGE I HAVE MADE AND WILL NOW MAGICALLY UNDO!!!
