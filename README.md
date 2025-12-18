@@ -5,5 +5,5 @@ Please read this I am learning git and version control and this is very importan
 Our todo:
 - [X] Create a new file
 - [X] Make first commit
-- [] Fix this tpyo
+- [X] Fix this typo
 
