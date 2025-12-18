@@ -7,6 +7,7 @@ Our todo:
 - [X] Make first commit
 - [X] Fix this typo
 
+<<<<<<< HEAD
 
 ToDo list is completed and I now know how to use git bash for all my version control needs. I deleted the project (on purpose) but all is well because you can just clone the repository onto the local drive once again to retrieve the lost project. This is great and very useful because it would not be a surprise if I deleted something that is actually very important while under the premise that it is unimportant at the time of deleting and then being consumed by regret.  
 
@@ -35,3 +36,10 @@ For undoing staged changes:
 - Exactly the opposite of git add <file>
 
 THIS IS A CHANGE I HAVE MADE AND WILL NOW MAGICALLY UNDO!!!
+=======
+>>>>>>> parent of e525fe8 (< This commit will extend my README.md file to include what I have learned re git bash etc. >)
+
+To revert a change:
+1. git log
+2. take first 7 characters of commit ID string
+3. git revert [insert 7 characters here]
