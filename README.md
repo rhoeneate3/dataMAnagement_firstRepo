@@ -35,9 +35,6 @@ For undoing staged changes:
 - git restore --staged README.md
 - Exactly the opposite of git add <file>
 
-THIS IS A CHANGE I HAVE MADE AND WILL NOW MAGICALLY UNDO!!!
-=======
->>>>>>> parent of e525fe8 (< This commit will extend my README.md file to include what I have learned re git bash etc. >)
 
 To revert a change:
 1. git log
