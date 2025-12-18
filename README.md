@@ -4,6 +4,6 @@ Please read this I am learning git and version control and this is very importan
 
 Our todo:
 - [X] Create a new file
-- [] Make first commit
+- [X] Make first commit
 - [] Fix this tpyo
 
